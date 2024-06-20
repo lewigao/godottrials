@@ -1,0 +1,30 @@
+[gd_scene load_steps=2 format=3 uid="uid://duhm1h84luvcm"]
+
+[ext_resource type="Script" path="res://main.gd" id="1_0riio"]
+
+[node name="main" type="Node"]
+script = ExtResource("1_0riio")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(575, 326)
+
+[node name="Label" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "placeholder"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label2" type="Label" parent="."]
+offset_left = -1.0
+offset_top = 21.0
+offset_right = 39.0
+offset_bottom = 44.0
+text = "placeholder2"
+
+[node name="TextEdit" type="TextEdit" parent="."]
+offset_left = 1.0
+offset_top = 45.0
+offset_right = 223.0
+offset_bottom = 80.0
+placeholder_text = "exchange money for health"
